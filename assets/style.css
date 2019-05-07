@@ -1,0 +1,100 @@
+html {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #22252C;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: 100vw;
+  height: 100vh;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+body::after {
+  content: '';
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: rgb(0,0,0);
+  opacity: 1;
+  animation-name: backgroundFade;
+  animation-duration: 3s;
+  animation-delay: 0.7s;
+  animation-fill-mode: forwards;
+}
+
+#quoteContainer {
+  color: white;
+  font-size: 44px;
+  width: 100%;
+  max-width: 600px;
+  padding: 50px;
+  text-align: center;
+  line-height: 1.4;
+  position: relative;
+  z-index: 5;
+  transform: translateY(50px);
+  animation-name: quoteSlide;
+  animation-duration: 5s;
+  animation-fill-mode: forwards;
+}
+
+.content {
+  position: fixed;
+  z-index: 5;
+  bottom: 20px;
+  right: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content img {
+  width: 40px;
+}
+
+.content ul {
+  list-style: none;
+  margin: 0 10px 0 0;
+  padding: 0;
+}
+
+.content ul li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+  transform: translateY(0);
+  transition: all 0.3s ease;
+}
+
+.content ul li a {
+  padding: 10px;
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.content ul li:hover {
+  transform: translateY(-3px);
+}
+
+@keyframes backgroundFade {
+  from {opacity: 1;}
+  to {opacity: 0.6;}
+}
+@keyframes quoteSlide {
+  from {transform: translateY(50px);}
+  to {transform: translateY(0px);}
+}
