@@ -4,7 +4,7 @@ Click extension that replaces new tab with content.
 ---
 
 ## Install
-Not yet in Chrome Web Store.
+Chrome Web Store as unlisted, [NUX NewTab](https://chrome.google.com/webstore/detail/nux-newtab/ijeepfhoedokmkooanpdimjdngdejmck)
 
 
 ## New Release
