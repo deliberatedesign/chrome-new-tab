@@ -20,10 +20,12 @@ Chrome Web Store as unlisted, [NUX NewTab](https://chrome.google.com/webstore/de
 }
 ```
 
-#### 2. Create a zip folder
-Create a zip folder of the extension *excluding the .git folder*
+#### 2. Create new release
+Create a new release in Github releases. Current release is `v0.0.2`.
 
-#### 3. Upload new version in Webstore Dashboard and Publish
+#### 3. Download release
+Download the latest release zip from Github releases.
 
+#### 4. Upload new version in Webstore Dashboard and Publish
 Go to [Developer Dashboard](https://chrome.google.com/webstore/developer/dashboard/g15145575285257363436?hl=en-US&gl=US&authuser=4) 
 `username: nitroux.extensions@gmail.com`
