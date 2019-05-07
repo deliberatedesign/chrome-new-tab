@@ -21,7 +21,7 @@ Chrome Web Store as unlisted, [NUX NewTab](https://chrome.google.com/webstore/de
 ```
 
 #### 2. Create new release
-Create a new release in Github releases. Current release is `v0.0.2`.
+Create a new release in Github releases. Current release is `v0.0.1`.
 
 #### 3. Download release
 Download the latest release zip from Github releases.
